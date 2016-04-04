@@ -1,8 +1,39 @@
 body {
     margin: 0;
+    font-family: sans-serif;
 }
-div {
-    width: 100px;
-    height: 100px;
-    background-color: red;
+.clearfix {
+    overflow: auto;
+}
+.container {
+    display: block;
+    width:1024px;
+    margin: 0 auto;
+}
+.header {
+    height: 60px;
+}
+.header-logo {
+    float: left;
+    display: block;
+}
+ul.header-nav {
+    float: right;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+ul.header-nav > li {
+    display: inline-block;
+}
+ul.header-nav > li > a {
+    display: inline-block;
+    padding: 19px 10px;
+    color: #8f969d;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+ul.header-nav > li > a:hover {
+    background-color: lavender;
 }
