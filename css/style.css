@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box
+}
 body {
     margin: 0;
     font-family: sans-serif;
@@ -12,10 +15,20 @@ body {
 }
 .header {
     height: 60px;
+    overflow: hidden;
+}
+.header-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 1;
 }
 .header-logo {
     float: left;
-    display: block;
+    display: inline-block;
+    padding: 2px 0;
 }
 ul.header-nav {
     float: right;
@@ -26,14 +39,63 @@ ul.header-nav {
 ul.header-nav > li {
     display: inline-block;
 }
+ul.header-nav > li:last-of-type a {
+    background-color: #2fca2d;
+    border-radius: 50px;
+    padding: 11px 30px;
+    color: #fff;
+}
+ul.header-nav >li:last-of-type:hover{
+    background-color: #46484a;
+}
 ul.header-nav > li > a {
     display: inline-block;
     padding: 19px 10px;
     color: #8f969d;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
     text-transform: uppercase;
 }
 ul.header-nav > li > a:hover {
-    background-color: lavender;
+    color: lightgray;
+}
+.product {
+    padding-top: 60px;
+    position: relative;
+    background: url(../img/header-background.jpg) center no-repeat;
+    height: 1000px;
+    text-align: center;
+}
+    .product-title {
+        color: #374848;
+        font-size: 79px;
+        padding-top: 80px;
+
+}
+        .product-discription {
+            color: #8a9095;
+            font-size: 27px;
+            line-height: 1.5em;
+            padding: 0 130px;
+}
+            .product-cta {
+                display: inline-block;
+                background-color: #2fca2d;
+                color: #fff;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-size: 27px;
+                padding: 20px 40px;
+                border-radius: 30px;
+                }
+            .product-cta:hover {
+                background-color: #374038;
+            }
+                .product-image {
+                    position: absolute;
+                    bottom: 40px;
+                    left: 50%;
+                    margin-left: 0 0 0 calc(-290px / 2) ;
+                    width: 290px;
+                    height: 328px;
 }
