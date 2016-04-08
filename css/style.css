@@ -58,6 +58,7 @@ ul.header-nav > li > a {
 }
 ul.header-nav > li > a:hover {
     color: lightgray;
+    border-radius: 40px;
 }
 .product {
     padding-top: 60px;
@@ -79,23 +80,79 @@ ul.header-nav > li > a:hover {
             padding: 0 130px;
 }
             .product-cta {
-                display: inline-block;
                 background-color: #2fca2d;
                 color: #fff;
                 text-decoration: none;
                 text-transform: uppercase;
                 font-size: 27px;
-                padding: 20px 40px;
-                border-radius: 30px;
+                padding: 20px 30px;
+                border-radius: 40px;
                 }
             .product-cta:hover {
                 background-color: #374038;
-            }
+                            }
                 .product-image {
                     position: absolute;
-                    bottom: 40px;
-                    left: 50%;
-                    margin-left: 0 0 0 calc(-290px / 2) ;
+                    bottom: 41px;
+                    left: 44%;
+                    margin-left: 0 0 0 calc(-290px/2) ;
                     width: 290px;
                     height: 328px;
 }
+.product-2 {
+    padding-top: 60px;
+    position: relative;
+    height: 1000px;
+    text-align: center;
+    }
+    .product-title-2 {
+        text-transform: uppercase;
+        font-size: 42px;
+        color: #374048
+    }
+        .product-discription-2 {
+            color: #969da3;
+            font-size: 20px;
+            line-height: 1.5em;
+            padding: 0 190px;
+            margin-top: -10px;
+                    }
+            .product-discription-2:after {
+                display: block;
+                content: "";
+                width: 80px;
+                height: 8px;
+                background-color: lightgray;
+                margin: 0 auto;
+                margin-top: 10px;
+            }
+              .product-image-2 {
+                    padding-top: 30px;
+                    position: relative;
+                        }
+.style-plus {
+    border-radius: 50%;
+    background-color: #0084ff;
+    color: white;
+    padding: 14px;
+    line-height: 0.5;
+    z-index: 3;
+    font-weight: 700;
+    position: absolute;
+    }
+    .product-image-2 > .plus1    {
+        top: 75px;
+        right: 350px;
+      }
+    .product-image-2 > .plus2     {
+        top: 295px;
+        right: 440px;
+    }
+    .product-image-2 > .plus3     {
+        top: 410px;
+        right: 655px;
+    }
+    .product-image-2 > .plus4     {
+        top: 170px;
+        right: 665px;
+    }
