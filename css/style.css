@@ -1,9 +1,119 @@
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/open-sans/300/opensans-300.eot');
+    src: url('../fonts/open-sans/300/opensans-300.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/open-sans/300/opensans-300.woff2') format('woff2'),
+    url('../fonts/open-sans/300/opensans-300.woff') format('woff'),
+    url('../fonts/open-sans/300/opensans-300.ttf') format('truetype'),
+    url('../fonts/open-sans/300/opensans-300.svg#OpenSans') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/open-sans/300-italic/opensans-300-italic.eot');
+    src: url('../fonts/open-sans/300-italic/opensans-300-italic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/open-sans/300-italic/opensans-300-italic.woff2') format('woff2'),
+    url('../fonts/open-sans/300-italic/opensans-300-italic.woff') format('woff'),
+    url('../fonts/open-sans/300-italic/opensans-300-italic.ttf') format('truetype'),
+    url('../fonts/open-sans/300-italic/opensans-300-italic.svg#OpenSans') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/open-sans/400/opensans-400.eot');
+    src: url('../fonts/open-sans/400/opensans-400.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/open-sans/400/opensans-400.woff2') format('woff2'),
+    url('../fonts/open-sans/400/opensans-400.woff') format('woff'),
+    url('../fonts/open-sans/400/opensans-400.ttf') format('truetype'),
+    url('../fonts/open-sans/400/opensans-400.svg#OpenSans') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/open-sans/400-italic/opensans-400-italic.eot');
+    src: url('../fonts/open-sans/400-italic/opensans-400-italic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/open-sans/400-italic/opensans-400-italic.woff2') format('woff2'),
+    url('../fonts/open-sans/400-italic/opensans-400-italic.woff') format('woff'),
+    url('../fonts/open-sans/400-italic/opensans-400-italic.ttf') format('truetype'),
+    url('../fonts/open-sans/400-italic/opensans-400-italic.svg#OpenSans') format('svg');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/open-sans/600/opensans-600.eot');
+    src: url('../fonts/open-sans/600/opensans-600.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/open-sans/600/opensans-600.woff2') format('woff2'),
+    url('../fonts/open-sans/600/opensans-600.woff') format('woff'),
+    url('../fonts/open-sans/600/opensans-600.ttf') format('truetype'),
+    url('../fonts/open-sans/600/opensans-600.svg#OpenSans') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/open-sans/600-italic/opensans-600-italic.eot');
+    src: url('../fonts/open-sans/600-italic/opensans-600-italic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/open-sans/600-italic/opensans-600-italic.woff2') format('woff2'),
+    url('../fonts/open-sans/600-italic/opensans-600-italic.woff') format('woff'),
+    url('../fonts/open-sans/600-italic/opensans-600-italic.ttf') format('truetype'),
+    url('../fonts/open-sans/600-italic/opensans-600-italic.svg#OpenSans') format('svg');
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/open-sans/700/opensans-700.eot');
+    src: url('../fonts/open-sans/700/opensans-700.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/open-sans/700/opensans-700.woff2') format('woff2'),
+    url('../fonts/open-sans/700/opensans-700.woff') format('woff'),
+    url('../fonts/open-sans/700/opensans-700.ttf') format('truetype'),
+    url('../fonts/open-sans/700/opensans-700.svg#OpenSans') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/open-sans/700-italic/opensans-700-italic.eot');
+    src: url('../fonts/open-sans/700-italic/opensans-700-italic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/open-sans/700-italic/opensans-700-italic.woff2') format('woff2'),
+    url('../fonts/open-sans/700-italic/opensans-700-italic.woff') format('woff'),
+    url('../fonts/open-sans/700-italic/opensans-700-italic.ttf') format('truetype'),
+    url('../fonts/open-sans/700-italic/opensans-700-italic.svg#OpenSans') format('svg');
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/open-sans/800/opensans-800.eot');
+    src: url('../fonts/open-sans/800/opensans-800.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/open-sans/800/opensans-800.woff2') format('woff2'),
+    url('../fonts/open-sans/800/opensans-800.woff') format('woff'),
+    url('../fonts/open-sans/800/opensans-800.ttf') format('truetype'),
+    url('../fonts/open-sans/800/opensans-800.svg#OpenSans') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/open-sans/800-italic/opensans-800-italic.eot');
+    src: url('../fonts/open-sans/800-italic/opensans-800-italic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/open-sans/800-italic/opensans-800-italic.woff2') format('woff2'),
+    url('../fonts/open-sans/800-italic/opensans-800-italic.woff') format('woff'),
+    url('../fonts/open-sans/800-italic/opensans-800-italic.ttf') format('truetype'),
+    url('../fonts/open-sans/800-italic/opensans-800-italic.svg#OpenSans') format('svg');
+    font-weight: 800;
+    font-style: italic;
+}
 *{
     box-sizing: border-box
 }
 body {
     margin: 0;
-    font-family: sans-serif;
+    font-family: OpenSans, sans-serif;
 }
 .clearfix {
     overflow: auto;
@@ -102,106 +212,7 @@ ul.header-nav > li > a:hover {
                     width: 290px;
                     height: 328px;
 }
-               /*
-.product-2 {
-    padding-top: 60px;
-    position: relative;
-    height: 1000px;
-    text-align: center;
-    }
-    .product-title-2 {
-        text-transform: uppercase;
-        font-size: 42px;
-        color: #374048
-    }
-        .product-discription-2 {
-            color: #969da3;
-            font-size: 20px;
-            line-height: 1.5em;
-            padding: 0 190px;
-            margin-top: -10px;
-                    }
-            .product-discription-2:after {
-                display: block;
-                content: "";
-                width: 80px;
-                height: 8px;
-                background-color: lightgray;
-                margin: 0 auto;
-                margin-top: 10px;
-            }
-              .product-image-2 {
-                    padding-top: 30px;
-                    position: relative;
-                        }
-.style-plus {
-    border-radius: 50%;
-    background-color: #0084ff;
-    color: white;
-    padding: 14px;
-    line-height: 0.5;
-    font-weight: 700;
-    position: absolute;
-    }
-    .product-image-2 > .plus1    {
-        top: 75px;
-        right: 350px;
-      }
-    .product-image-2 > .plus2     {
-        top: 295px;
-        right: 440px;
-    }
-    .product-image-2 > .plus3     {
-        top: 410px;
-        right: 655px;
-    }
-    .product-image-2 > .plus4     {
-        top: 170px;
-        right: 665px;
-    }
-.hover {
-    padding-top: 60px;
-    position: relative;
-    height: 1000px;
-    text-align: center;
-    background: #f8fbfd;
 
-}
-    .hhover {
-        color: #374048;
-        text-transform: uppercase;
-        font-size: 50px;
-
-
-}
-        .phover {
-            display: block;
-            max-width: 710px;
-            font-size: 20px;
-            color: #4e575f;
-            line-height: 1.5em;
-            margin-top: -10px;
-}
-.arrow{
-    width: 0px;
-    height: 0px;
-    border: 30px solid transparent;
-    border-top-color: grey;
-    margin: 0;
-    padding: 0;
-    float: left;
-    transform: rotate(-90deg);
-}
-.arrow:before{
-    content:'';
-    width: 0px;
-    height: 0px;
-    border: 30px solid transparent;
-    border-top-color: white;
-    display: inline-block;
-    -webkit-transform: translate(-30px, -50px);
-    }
-    */
 .section {
     width: 100%;
     background-color: #fff;
@@ -340,8 +351,66 @@ ul.header-nav > li > a:hover {
     transform: rotate(45deg);
 }
 .hiw-steps >.hiw-step > .hiw-step-arrow::before {
-
 }
 .hiw-steps >.hiw-step > .hiw-step-arrow::after {
-
 }
+/*
+.benefit-steps {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.benefit-step {
+    position: relative;
+    float: left;
+    width: 33.33%;
+    padding: 0 20px;
+}
+.hbenefits {
+    color: #374048;
+    font-size: 22px;
+}
+.pbenefits {
+    font-size: 16px;
+    line-height: 20px;
+    color: #82898f;
+}
+.flaticons {
+    display: inline-block;
+    position: absolute;
+    top: 70px;
+    left: -3px;
+}
+*/
+/*.tracking:before {
+    background: url("/flaticon/web.png") no-repeat left;
+    padding: 5px 0 5px 25px;
+}
+*/
+/*
+.wath3-img {
+    position: absolute;
+    width: 280px;
+    height: 510px;
+    left: 41%;
+}
+.wath3-step {
+    position: relative;
+    float: left;
+    width: 33.33%;
+    padding: 0 20px;
+}
+*/
+.benefits-section {}
+    .benefits-list {}
+        .benefits-item {}
+            .benefits-item-icon {}
+            .benefits-item-content {}
+            .benefits-item-title{}
+            .benefits-item-discription {}
+
+
+
+
