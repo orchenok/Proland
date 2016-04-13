@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'linecons';
+    src: url('../fonts/linecons/400/linecons-400.eot');
+    src: url('../fonts/linecons/400/linecons-400.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/linecons/400/linecons-400.woff') format('woff'),
+    url('../fonts/linecons/400/linecons-400.ttf') format('truetype'),
+    url('../fonts/linecons/400/linecons-400.svg#Linecons') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+.lc {
+    font-family: "linecons";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    /* opacity: .8; */
+
+    /* For safety - reset parent styles, that can break glyph codes*/
+    font-variant: normal;
+    text-transform: none;
+
+    /* fix buttons height, for twitter bootstrap */
+    line-height: 1em;
+
+    /* Animation center compensation - magrins should be symmetric */
+    /* remove if not needed */
+    margin-left: .2em;
+
+    /* you can be more comfortable with increased icons size */
+    /* font-size: 120%; */
+
+    /* Uncomment for 3D effect */
+    /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.lc.lc-music:before { content: '\e022'; } /* '' */
+.lc.lc-search:before { content: '\e009'; } /* '' */
+.lc.lc-mail:before { content: '\e019'; } /* '' */
+.lc.lc-heart:before { content: '\e000'; } /* '' */
+.lc.lc-star:before { content: '\e002'; } /* '' */
+.lc.lc-user:before { content: '\e007'; } /* '' */
+.lc.lc-videocam:before { content: '\e005'; } /* '' */
+.lc.lc-camera:before { content: '\e00b'; } /* '' */
+.lc.lc-photo:before { content: '\e01b'; } /* '' */
+.lc.lc-attach:before { content: '\e029'; } /* '' */
+.lc.lc-lock:before { content: '\e00d'; } /* '' */
+.lc.lc-eye:before { content: '\e013'; } /* '' */
+.lc.lc-tag:before { content: '\e00c'; } /* '' */
+.lc.lc-thumbs-up:before { content: '\e01a'; } /* '' */
+.lc.lc-pencil:before { content: '\e00f'; } /* '' */
+.lc.lc-comment:before { content: '\e014'; } /* '' */
+.lc.lc-location:before { content: '\e012'; } /* '' */
+.lc.lc-cup:before { content: '\e016'; } /* '' */
+.lc.lc-trash:before { content: '\e006'; } /* '' */
+.lc.lc-doc:before { content: '\e018'; } /* '' */
+.lc.lc-note:before { content: '\e01c'; } /* '' */
+.lc.lc-cog:before { content: '\e00a'; } /* '' */
+.lc.lc-params:before { content: '\e01f'; } /* '' */
+.lc.lc-calendar:before { content: '\e02b'; } /* '' */
+.lc.lc-sound:before { content: '\e004'; } /* '' */
+.lc.lc-clock:before { content: '\e01d'; } /* '' */
+.lc.lc-lightbulb:before { content: '\e00e'; } /* '' */
+.lc.lc-tv:before { content: '\e003'; } /* '' */
+.lc.lc-desktop:before { content: '\e011'; } /* '' */
+.lc.lc-mobile:before { content: '\e017'; } /* '' */
+.lc.lc-cd:before { content: '\e02d'; } /* '' */
+.lc.lc-inbox:before { content: '\e015'; } /* '' */
+.lc.lc-globe:before { content: '\e02f'; } /* '' */
+.lc.lc-cloud:before { content: '\e001'; } /* '' */
+.lc.lc-paper-plane:before { content: '\e01e'; } /* '' */
+.lc.lc-fire:before { content: '\e028'; } /* '' */
+.lc.lc-graduation-cap:before { content: '\e024'; } /* '' */
+.lc.lc-megaphone:before { content: '\e023'; } /* '' */
+.lc.lc-database:before { content: '\e021'; } /* '' */
+.lc.lc-key:before { content: '\e008'; } /* '' */
+.lc.lc-beaker:before { content: '\e025'; } /* '' */
+.lc.lc-truck:before { content: '\e02e'; } /* '' */
+.lc.lc-money:before { content: '\e020'; } /* '' */
+.lc.lc-food:before { content: '\e026'; } /* '' */
+.lc.lc-shop:before { content: '\e02a'; } /* '' */
+.lc.lc-diamond:before { content: '\e010'; } /* '' */
+.lc.lc-t-shirt:before { content: '\e027'; } /* '' */
+.lc.lc-wallet:before { content: '\e02c'; } /* '' */

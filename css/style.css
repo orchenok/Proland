@@ -209,7 +209,7 @@ ul.header-nav > li > a:hover {
                     position: absolute;
                     bottom: 41px;
                     left: 44%;
-                    margin-left: 0 0 0 calc( - 290px / 2) ;
+                    margin-left: 0 0 0 calc( -290px / 2);
                     width: 290px;
                     height: 328px;
 }
@@ -356,26 +356,75 @@ ul.header-nav > li > a:hover {
 .hiw-steps >.hiw-step > .hiw-step-arrow::after {
 }
 .benefits-section {}
-    .benefits-list {
-        display: block;
-        list-style: none;
-        margin: 0;
-        padding: 0 5px 0 5px;
-        text-align: left;
-    }
-    .benefits-list > .benefits-item {
-        position: relative;
-        float: left;
-        width: 33.33%;
-        padding: 0 20px;
-    }
-.benefits-list > .benefits-item > .benefits-item-icon {
-    display: inline-block;
-    margin: auto;
+.iconed-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.iconed-list  .iconed-list-item {
+    position: relative;
+    display: block;
     float: left;
+    width: 33.33%;
+    padding: 0;
+    margin: 2px 0;
+}
+.iconed-list  .iconed-list-item-icon {
+    font-size: 35px;
+    position: absolute;
+    top: 0;
+    left: 4px;
+    display: inline-block;
+    line-height: 1px;
+    color: mediumseagreen;
+}
+.iconed-list .iconed-list-content {
+    padding-left: 60px;
+}
+.iconed-list .iconed-list-title {
+    color: #374048;
+    font-size: 20px;
+    margin: 0;
+    line-height: 20px;
 
-                }
-.tracking {
+}
+.iconed-list .iconed-list-discription {
+    color: #737c85;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.benefits-list {}
+.benefits-list > .benefits-item {}
+.benefits-list > .benefits-item > .benefits-item-icon {}
+.benefits-list > .benefits-item > .benefits-item-content {}
+.benefits-item > .benefits-item-content > .benefits-item-title{}
+.benefits-item > .benefits-item-content > .benefits-item-discription {}
+
+.wath-features-section {}
+.wath-features-list {
+    position: relative;
+}
+.wath-features-list:after {
+    display: block;
+    content: "";
+    background: url("../img/apple-watch-3.png") center no-repeat;
+    width: 283px;
+    height: 510px;
+    position: absolute;
+    top: calc(50% - 510px / 2);
+    left: calc(50% - 283px / 2);
+}
+.wath-features-list > .wath-features-list-item {
+    margin: 30px 0;
+}
+.wath-features-list > .wath-features-list-item:nth-child(odd){
+    margin-right: 16.666%;
+}
+.wath-features-list > .wath-features-list-item:nth-child(even){
+    margin-left: 16.666%;
+}
+/*.tracking {
     top: 30px;
     left: -5px;
     position: absolute;
@@ -405,28 +454,6 @@ ul.header-nav > li > a:hover {
     left: -15px;
     position: absolute;
 }
-            .fa {
-                color: blue;
-            }
-            .benefits-item-content {}
-.benefits-item > .benefits-item-content > .benefits-item-title{
-                color: #374048;
-                font-size: 20px;
-                margin-bottom: -5px;
-            }
-.benefits-item > .benefits-item-content > .benefits-item-discription {
-    color: #737c85;
-    font-size: 15px;
-    line-height: 20px;
-}
-.wath3-colon {
-    position: relative;
-    float: left;
-    width: 33.33%;
-    padding: 0 20px;
-}
-.wath3-item {
-    list-style: none;
-}
-
-
+.fa {
+    color: blue;
+}*/
